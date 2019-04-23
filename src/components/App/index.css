@@ -59,14 +59,14 @@
   border: 1px solid #e3e3e3;
 }
 
-.table-header >span {
-   overflow: hidden;
+.table-header > span {
+  overflow: hidden;
   text-overflow: ellipsis;
   padding: 0 5px;
 }
 
 .table-row > span {
-   overflow: hidden;
+  overflow: hidden;
   text-overflow: ellipsis;
   padding: 0 5px;
 }
@@ -85,6 +85,11 @@
 .button-active {
   border-radius: 0;
   border-bottom: 1px solid #38bb6c;
+}
+
+.error {
+  text-align: center;
+  color: red;
 }
 
 @keyframes App-logo-spin {
