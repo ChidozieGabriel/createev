@@ -5,6 +5,7 @@ import Slide from '../Slide/Slide';
 import Footer from '../Footer/Footer';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
+import Services from '../Services/Services';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <br />
         <Slide />
         <br />
+        <Services />
         <About />
         <Contact />
         <Footer />
