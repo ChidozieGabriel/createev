@@ -1141,6 +1141,9 @@ a {
 .w3-margin {
   margin: 16px !important;
 }
+.w3-margin-large {
+  margin: 64px !important;
+}
 .w3-margin-top {
   margin-top: 16px !important;
 }
@@ -1152,6 +1155,18 @@ a {
 }
 .w3-margin-right {
   margin-right: 16px !important;
+}
+.w3-margin-left-32 {
+  margin-left: 32px !important;
+}
+.w3-margin-right-32 {
+  margin-right: 32px !important;
+}
+.w3-margin-left-64 {
+  margin-left: 64px !important;
+}
+.w3-margin-right-64 {
+  margin-right: 64px !important;
 }
 .w3-padding-small {
   padding: 4px 8px !important;
@@ -1597,4 +1612,13 @@ a {
 .w3-border-pale-blue,
 .w3-hover-border-pale-blue:hover {
   border-color: #e7ffff !important;
+}
+.w3-line-2 {
+  line-height: 2;
+}
+.w3-line-2-5 {
+  line-height: 2.5;
+}
+.w3-line-3 {
+  line-height: 3;
 }

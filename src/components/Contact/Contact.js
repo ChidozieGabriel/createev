@@ -5,18 +5,10 @@ import {
   faPhone,
   faEnvelope
 } from '@fortawesome/free-solid-svg-icons';
-
-import {
-  faFacebook,
-  faLinkedin,
-  faGoogle,
-  faTwitter
-} from '@fortawesome/free-brands-svg-icons';
+import Section from '../Section/Section';
 
 const Contact = () => (
-  <div className="w3-container w3-content w3-section" id="contact">
-    <h2 className="w3-wide w3-center">CONTACT</h2>
-    <p className="w3-opacity w3-center">{/* <i>Fan? Drop a note!</i> */}</p>
+  <Section id="contact" heading="CONTACT">
     <div className="w3-row w3-margin-bottom">
       <div className="w3-third">
         <span>
@@ -65,7 +57,7 @@ const Contact = () => (
         </div>
       </div>
     </form>
-  </div>
+  </Section>
 );
 
 export default Contact;

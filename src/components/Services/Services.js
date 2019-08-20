@@ -1,10 +1,10 @@
 import React from 'react';
 import image from './assets/120.png';
 import Card from './Card/Card';
+import Section from '../Section/Section';
 
 const Services = () => (
-  <div className="w3-container w3-content w3-section" id="about">
-    <h2 className="w3-center w3-wide">OUR SERVICES</h2>
+  <Section id="services" heading="OUR SERVICES">
     <div className="w3-row w3-center">
       <div className="w3-third w3-container w3-margin-bottom">
         <Card
@@ -42,7 +42,7 @@ const Services = () => (
         </Card>
       </div>
     </div>
-  </div>
+  </Section>
 );
 
 export default Services;

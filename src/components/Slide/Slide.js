@@ -15,11 +15,19 @@ class Slide extends Component {
     };
   }
   _setIndex = () => {
-    let { index } = this.state;
-    index += 1;
-    if (index > 3) index = 0;
-    if (this._isMounted) this.setState({ index });
-    setTimeout(this._setIndex, this._timer);
+    // let { index } = this.state;
+    // index += 1;
+    // if (index > 3) index = 0;
+    // if (this._isMounted) {
+    //   document
+    //     .getElementById('slide')
+    //     .classList.toggle('w3-animate-right', false);
+    //   document
+    //     .getElementById('slide')
+    //     .classList.toggle('w3-animate-right', true);
+    //   this.setState({ index });
+    // }
+    // setTimeout(this._setIndex, this._timer);
   };
   _getImage(index) {
     switch (index) {
@@ -43,11 +51,11 @@ class Slide extends Component {
     this._isMounted = false;
   }
   render() {
-    const { index } = this.state;
-    console.log('index', index);
+    // const { index } = this.state;
+    // console.log('index', index);
     return (
-      <div className="slide">
-        <SlideImage src={this._getImage(index)} />
+      <div id="slide" className="slide">
+        <SlideImage />
       </div>
     );
   }
